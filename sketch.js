@@ -56,7 +56,7 @@ let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metri
 function setup() {
   createCanvas(windowWidth, windowHeight-10);
   angleMode(RADIANS);
-  //snow.push(new SnowFlake()); 
+  snow.push(new SnowFlake()); 
   rain.push(new RainParticle());
   fog.push(new Fog());
   mist.push(new Mist());
